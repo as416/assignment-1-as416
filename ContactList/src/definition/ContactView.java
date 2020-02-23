@@ -64,6 +64,7 @@ public class ContactView<E> implements ContactViewADT {
 
                     if (contact.size() > 5) {
                         System.out.println("--------------------------------------------");
+
                         System.out.println("Name=" + contact.get(0) + " " + contact.get(1));
                         System.out.print("Mobile no(s)=");
                         for (int k = 2; k < contact.size() - 1; k++) {
